@@ -1,17 +1,89 @@
-label {
-    padding: 2px;
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+  
+header {
+    background-color: #f1f1f1;
+}
+  
+header h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+#text {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: rgb(60, 236, 25);
+    white-space: pre;
+    height: 50px;
+}
+
 
 input,
 label {
     margin: .4rem 0;
 }
 
+.form-inline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 2px;
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+  
+
+textarea {
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 100%;
+    font-size: 20px;
+}
+  
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #3e8e41;
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 table {
     border-collapse: collapse;
 }
+
 td {
     font: 1rem 'Fira sans', sans-serif;
     padding: 3px;
@@ -20,3 +92,15 @@ td {
     height: 20px;
     text-align: center;
 }
+
+footer {
+    position: relative;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 5;
+    color: black;
+    padding-bottom: 20px;
+  }
+  

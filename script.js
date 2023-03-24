@@ -1,3 +1,16 @@
+//Hello message
+const text = "Create your own Custom Word Search! :)";
+let index = 0;
+
+function type() {
+  const element = document.getElementById("text");
+  element.innerHTML = text.slice(0, index++);
+  if (index > text.length) index = 0;
+}
+
+setInterval(type, 150);
+
+
 const input = document.getElementById('inputbox');
 const screen = document.getElementById('screen');
 const grid = document.getElementById('grid');
