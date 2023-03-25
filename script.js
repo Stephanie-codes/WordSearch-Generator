@@ -1,5 +1,5 @@
 //Hello message
-const text = "Create your own Custom Word Search! :)";
+const text = "Create your own Custom Word Search!";
 let index = 0;
 
 function type() {
@@ -8,7 +8,7 @@ function type() {
   if (index > text.length) index = 0;
 }
 
-setInterval(type, 150);
+setInterval(type, 100);
 
 
 const input = document.getElementById('inputbox');
